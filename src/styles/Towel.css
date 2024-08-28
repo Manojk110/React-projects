@@ -1,0 +1,54 @@
+/* Towel.css */
+
+.product {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .product-card {
+    width: 300px;
+    height: 550px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .product-card:hover {
+    transform: scale(1.04);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 300px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the area */
+  }
+  
+  .product-details {
+    padding: 15px;
+  }
+  
+  .product-details h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+ 
+  
+  }
+  
+  .product-details p {
+    font-size: 16px;
+    color: #888;
+    margin-top: auto; /* Pushes the price to the bottom */
+  }
+  

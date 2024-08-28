@@ -1,0 +1,40 @@
+/* Cart.css */
+
+.cart-container {
+    max-width: 400px;
+    margin-top: 7%;
+    margin-left: 32%;
+    margin-bottom: 12%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-container h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-container input[type='text'],
+  .cart-container input[type='password'],
+  .cart-container input[type='submit'] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cart-container input[type='submit'] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-container input[type='submit']:hover {
+    background-color: #45a049;
+  }
+  

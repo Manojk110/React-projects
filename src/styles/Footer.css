@@ -1,0 +1,55 @@
+/* Footer.css */
+
+footer {
+  background-color: #2c4460;
+  color: #f2f8f8;
+  padding: 20px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #f2f8f8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-section ul li a:visited {
+  color: #f2f8f8;
+}
+.copy {
+  font-size: small;
+  background-color: #0e1823;
+  padding: 20px;
+  margin-top: auto; /* Push .copy to the bottom */
+  width: 100%; /* Ensure full width */
+  text-align: center; /* Center align text */
+}

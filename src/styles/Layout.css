@@ -1,0 +1,38 @@
+.deal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  transition: 1s linear ease-in-out;
+}
+
+.img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  
+  
+}
+.art:hover{
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+  
+.img:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img {
+    max-width: 100%;
+  }
+}

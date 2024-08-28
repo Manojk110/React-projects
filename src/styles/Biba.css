@@ -1,0 +1,66 @@
+.biba-container{
+    display: flex;
+   
+    
+}
+  
+  .biba-item {
+    width: 270px; /* Adjust width as needed */
+    /* margin: 20px; */
+    border: 2px solid #ccc;
+  padding: 5px;
+    text-align: center;
+    margin: 5px;
+   justify-content: center;
+   margin-left: 15px;
+   margin-right: 10px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+    
+   
+  }
+  
+  .sell {
+    display: inline;
+    background-color: rgb(128, 8, 8);
+    color: white;
+    padding: 5px 10px;
+    /* border-radius: 2px; */
+    margin-left: 190px;
+    
+  }
+  
+  .price-details1 {
+    margin-top: 10px;
+  }
+  
+  .pri {
+    font-size: 18px;
+    color: #4e6c03;
+  }
+  .less{
+    color: red;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+  }
+  
+  .add-to-cart1 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .add-to-cart1 button:hover {
+    background-color: #0056b3;
+  }
+  
+  .slider1 {
+    margin-top: 20px;
+  }
+  

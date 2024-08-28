@@ -1,0 +1,50 @@
+.roll {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px  ;
+}
+
+.jockey-list{
+  display: inline-block;
+  border: 1px solid rgba(8, 8, 8, 0.893);
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: white;
+  color: rgb(10, 10, 10);
+  box-shadow: 4px 0px 5px 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  transition: transform 0.4s ease-in-out;
+}
+.jockey-list:hover{
+  transform: scale(1.01);
+}
+.offer{
+  color: green;
+  margin-left: 38%;
+}
+.flex2{
+  display: inline;
+  margin-left: 30%;
+  
+}
+.price{
+ margin-left: 10px;
+}
+.add1{
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  margin-left: 38%;
+
+}
+.add1:hover{
+  cursor: pointer;
+  color: rgb(9, 234, 50);
+}.roll1{
+  padding: 45px;
+}

@@ -1,0 +1,84 @@
+
+.off{
+    padding: 10px;
+    color: rgb(16, 124, 88);
+    background-color: rgb(204, 236, 25);
+    display: inline;
+    border-radius: 20px;
+}
+.pr{
+    color: green;
+}
+.cut{
+    color: rgb(150, 18, 18);
+}
+.flex1{
+    display: flex;
+    
+}
+
+    /* display: flex; */
+  
+  
+  .tommy-list {
+    position: relative;
+ 
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 5px 3px 3px;
+    margin: 30px;
+    height: 440px;
+    width: 300px;
+  }
+  
+  .tommy-list:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    box-shadow: 2px 5px 3px 3px;
+  }
+  
+  .slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    height: 0;
+  }
+  
+  .tommy-list:hover .slider {
+    height: 60px; 
+    
+  }
+  
+  .add-to-cart {
+    text-align: center;
+  }
+  
+  .add-to-cart button {
+    background-color: #dd430b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart button:hover {
+    background-color: #0ba313;
+  }
+  
